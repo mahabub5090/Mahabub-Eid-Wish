@@ -44,7 +44,8 @@ h1 {
     width: 100%;
     padding-top: 20vh;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 20px red;
+    text-shadow: 2px 2px 20px red;
+
 }
 
 h2 {
@@ -55,15 +56,13 @@ h2 {
     padding-bottom: 20vh;
 }
 
-span {
-    font-family: 'Architects Daughter';
-    font-weight: bolder;
-    color: #fff;
-    text-shadow: 2px 2px 20px red;
-
+h2:hover {
+    color: magenta
 }
 
-#main-wish:hover {
+
+
+h1:hover {
     color: red;
 
 
@@ -71,7 +70,7 @@ span {
 
 #main-wish::before {
     content: ' ';
-    border-left: 15px solid white;
+    border-left: 15px solid red;
     border-radius: 50px;
     position: absolute;
     width: 200px;
@@ -81,3 +80,4 @@ span {
     transform: rotate(-30deg);
 
 }
+
