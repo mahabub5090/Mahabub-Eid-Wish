@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+section {
+    background-image: url(background_pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    margin-top: 0;
+
+
+
+}
+
+div {
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Architects Daughter';
+    font-size: 90px;
+    font-weight: bolder;
+    color: #fff;
+    width: 100%;
+    padding-top: 20vh;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 20px red;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    color: rgb(244, 18, 138);
+    font-family: 'Lobster';
+    padding-bottom: 20vh;
+}
+
+span {
+    font-family: 'Architects Daughter';
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 2px 2px 20px red;
+
+}
+
+#main-wish:hover {
+    color: red;
+
+
+}
+
+#main-wish::before {
+    content: ' ';
+    border-left: 15px solid white;
+    border-radius: 50px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 20px;
+    background: transparent;
+    transform: rotate(-30deg);
+
+}
